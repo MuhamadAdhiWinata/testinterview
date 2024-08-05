@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cek Bilangan</title>
+  </head>
+  <body>
+    <h2>Tampilkan Urutan Angka</h2>
+    <form method="post" action="fungsi.php">
+      <label for="maxNumber">Masukkan Batas Angka:</label>
+      <input type="number" id="maxNumber" name="maxNumber" required />
+      <input type="submit" name="submitUrutan" value="Tampilkan" />
+    </form>
+
+    <h2>Cek Bilangan Genap atau Ganjil</h2>
+    <form method="post" action="fungsi.php">
+      <label for="bil">Masukkan Bilangan:</label>
+      <input type="number" id="bil" name="bil" required />
+      <input type="submit" name="submitCek" value="Cek" />
+    </form>
+
+    <h2>Konversi Kata Dagadu</h2>
+    <form action="no3.php" method="get">
+      <label for="text">Masukkan Kata:</label>
+      <input type="text" id="text" name="text" required />
+      <button type="submit">Konversi</button>
+    </form>
+  </body>
+</html>
