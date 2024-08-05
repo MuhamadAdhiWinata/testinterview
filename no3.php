@@ -120,5 +120,6 @@ foreach($items as $item){
 
 $result .= convert($stack->popAll());
 
-
-echo "Hasil Konversi adalah = $result";
+echo "<h2>Hasil Konversi Dagadu</h2>";
+echo "<p>";
+echo $result;
