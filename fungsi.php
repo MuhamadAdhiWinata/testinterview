@@ -1,5 +1,5 @@
 <?php
-
+// NOMOR 1
 function tampilkanNomorUrut($maxNumber) {
     for ($x = 1; $x <= $maxNumber; $x++) {
         if ($x < $maxNumber) {
@@ -9,7 +9,7 @@ function tampilkanNomorUrut($maxNumber) {
         }
     }
 }
-
+// NOMOR 2
 function cekBilanganGenapGanjil($bil) {
     if ($bil % 2 == 0) {
         return "$bil Merupakan Bilangan Genap";
